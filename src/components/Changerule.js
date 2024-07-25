@@ -16,7 +16,7 @@ const Changerule = () => {
         e.preventDefault();
 
         try {
-            let result = await fetch("http://localhost:7100/changerule", {
+            let result = await fetch("https://www.api.jigsawplanet.online/changerule", {
                 method: "post",
                 body: JSON.stringify({ email, newRole, confirmRole }),
                 headers: {
@@ -111,80 +111,3 @@ const Changerule = () => {
 }
 
 export default Changerule;
-
-
-
-
-// import React, { useState } from "react";
-// import { toast } from 'react-toastify';
-
-// const Changerule = () => {
-
-//     const [email, setEmail] = useState('')
-//     const [newrole, setNewRole] = useState('')
-//     const [confirmrole, setConfirmRole] = useState('')
-
-
-//     const chnagerule = async (e) => {
-//         e.preventDefault();
-
-//         try {
-//             let result = await fetch("http://localhost:7100/changerule", {
-//                 method: "post",
-//                 body: JSON.stringify({ email, newrole, confirmrole }),
-//                 headers: {
-//                     "Content-Type": "application/json"
-//                 }
-
-//             });
-//             const data = await result.json();
-
-//             if (result.ok) {
-//                 toast.success("User Role Reset Successfully..!!")
-//             } else {
-//                 toast.success("User Email or Role are not match ..!!")
-//             }
-//         } catch (error) {
-//             console.error("Error during Changing Role:", error);
-//             alert("An error occurred. Please try again.");
-//         }
-//     }
-//     return (
-//         <div className="my-4">
-//             <div className="container mt-4 w-50">
-//                 <div className="row justify-content-center">
-//                     <div className="col-md-8">
-//                         <div className="card-group mb-0">
-//                             <div className="card p-4">
-//                                 <div className="card-body">
-//                                     <h3>Change Rule</h3>
-//                                     <div className="input-group mb-3">
-//                                         <span className="input-group-addon"><i className="fa fa-user" /></span>
-//                                         <input type="email" onChange={(e) => setEmail(e.target.value)} name="email" className="form-control" placeholder="User email" />
-//                                     </div>
-//                                     <div className="input-group mb-4">
-//                                         <span className="input-group-addon"><i className="fa fa-lock" /></span>
-//                                         <input type="password" onChange={(e) => setNewRole(e.target.value)} name="role" className="form-control" placeholder="New Role" />
-//                                     </div>
-//                                     <div className="input-group mb-4">
-//                                         <span className="input-group-addon"><i className="fa fa-lock" /></span>
-//                                         <input type="password" onChange={(e) => setConfirmRole(e.target.value)} name="role" className="form-control" placeholder="Confirm New Role" />
-//                                     </div>
-//                                     <div className="row">
-//                                         <div className="col-6">
-//                                             <button onClick={chnagerule} style={{}} type="button" className="btn btn-primary">Change Rule</button>
-//                                         </div>
-
-//                                     </div>
-//                                 </div>
-//                             </div>
-
-//                         </div>
-//                     </div>
-//                 </div>
-//             </div>
-
-//         </div>
-//     )
-// }
-// export default Changerule;

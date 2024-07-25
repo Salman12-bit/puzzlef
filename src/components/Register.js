@@ -47,7 +47,7 @@ const Register = () => {
       return;
     }
 
-    let result = await fetch("http://127.0.0.1:7100/register", {
+    let result = await fetch("https://www.api.jigsawplanet.online/register", {
       method: "post",
       body: JSON.stringify({ name, email, address, password }),
       headers: {

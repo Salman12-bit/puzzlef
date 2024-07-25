@@ -28,7 +28,7 @@ const Login = () => {
             return;
         }
                  
-        let result = await fetch("http://localhost:7100/login", {
+        let result = await fetch("https://www.api.jigsawplanet.online/login", {
             method: "post",
             body: JSON.stringify({ email, password }),
             headers: {
@@ -123,106 +123,3 @@ const Login = () => {
 };
 
 export default Login;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-// import React, { useState } from "react";
-// import { Link, useNavigate } from "react-router-dom";
-// import { toast } from "react-toastify";
-
-
-// const Login = () => {
-//     const [email, setEmail] = useState('');
-//     const [password, setPassword] = useState('');
-//     const navigate = useNavigate();
-
-//     const loginUser = async (e) => {
-//         e.preventDefault();
-//         let result = await fetch("http://localhost:7100/login", {
-//             method: "post",
-//             body: JSON.stringify({ email, password }),
-//             headers: {
-//                 "Content-Type": "application/json"
-//             }
-//         });
-
-//         const data = await result.json();
-        
-//         if (result.ok) {
-//             localStorage.setItem('key', JSON.stringify(data.user));
-//             navigate("/");
-//             toast.success("User Login Successfully..!!");
-//         } else {
-//             toast.error("User Email or Password do not match..!!");
-//         }
-//     }
-
-//     return (
-//         <div className="card1">
-//             <section className="vh-100">
-//                 <div className="container-fluid h-custom">
-//                     <div className="row d-flex justify-content-center align-items-center h-100">
-//                         <div className="col-md-9 col-lg-6 col-xl-5">
-//                             <img src="https://mdbcdn.b-cdn.net/img/Photos/new-templates/bootstrap-login-form/draw2.webp" className="img-fluid" alt="images" />
-//                         </div>
-//                         <div className="col-md-8 col-lg-6 col-xl-4 offset-xl-1">
-//                             <form onSubmit={loginUser}>
-//                                 {/* Email input */}
-//                                 <div className="form-outline mb-4">
-//                                     <label className="form-label" htmlFor="form3Example3">Email address</label>
-//                                     <input type="text" value={email} onChange={(e) => setEmail(e.target.value)} className="form-control form-control-lg" placeholder="Enter a valid email address" required />
-//                                 </div>
-
-//                                 {/* Password input */}
-//                                 <div className="form-outline mb-3">
-//                                     <label className="form-label" htmlFor="form3Example4">Password</label>
-//                                     <input type="password" value={password} onChange={(e) => setPassword(e.target.value)} className="form-control form-control-lg" placeholder="Enter password" required />
-//                                 </div>
-
-//                                 <div className="d-flex justify-content-between align-items-center">
-//                                     {/* Checkbox */}
-//                                     <div className="form-check mb-0">
-//                                         <input className="form-check-input me-2" type="checkbox" id="form2Example3" />
-//                                         <label className="form-check-label" htmlFor="form2Example3">
-//                                             Remember me
-//                                         </label>
-//                                     </div>
-//                                     <Link to="/forget" className="text-body">Forgot password?</Link>
-//                                 </div>
-
-//                                 <div className="text-center text-lg-start mt-4 pt-2">
-//                                     <button type="submit" className="btn btn-primary btn-lg" style={{ paddingLeft: '2.5rem', paddingRight: '2.5rem' }}>Login</button>
-//                                     <p className="small fw-bold mt-2 pt-1 mb-0">Don't have an account? <Link to="/register" className="link-danger">Register</Link></p>
-//                                 </div>
-//                             </form>
-//                         </div>
-//                     </div>
-//                 </div>
-//             </section>
-//         </div>
-//     );
-// }
-
-// export default Login;
