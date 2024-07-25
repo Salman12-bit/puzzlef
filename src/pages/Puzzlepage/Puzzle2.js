@@ -20,9 +20,9 @@ const Board1 = styled.div`
 `;
 
 const initialCards = [
-  { id: 1, value: 'A' }, { id: 2, value: 'A' },
-  { id: 3, value: 'A' }, { id: 4, value: 'A' },
-  { id: 5, value: 'A' }, { id: 6, value: 'A' },
+  { id: 1, value: 'A' }, { id: 2, value: 'B' },
+  { id: 3, value: 'C' }, { id: 4, value: 'A' },
+  { id: 5, value: 'A' }, { id: 6, value: 'F' },
   { id: 7, value: 'D' }, { id: 8, value: 'A' },
   { id: 9, value: 'E' },
 ];

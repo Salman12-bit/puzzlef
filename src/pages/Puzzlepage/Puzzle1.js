@@ -20,11 +20,11 @@ const Board1 = styled.div`
 `;
 
 const initialCards = [
-  { id: 1, value: 'A' }, { id: 2, value: 'A' },
-  { id: 3, value: 'A' }, { id: 4, value: 'A' },
-  { id: 5, value: 'A' }, { id: 6, value: 'C' },
+  { id: 1, value: 'A' }, { id: 2, value: 'B' },
+  { id: 3, value: 'F' }, { id: 4, value: 'A' },
+  { id: 5, value: 'E' }, { id: 6, value: 'F' },
   { id: 7, value: 'A' }, { id: 8, value: 'A' },
-  { id: 9, value: 'A' },
+  { id: 9, value: 'F' },
 ];
 
 const Puzzle1 = () => {

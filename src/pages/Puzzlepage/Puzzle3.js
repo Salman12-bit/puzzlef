@@ -22,9 +22,9 @@ const Board1 = styled.div`
 const initialCards = [
   { id: 1, value: 'A' }, { id: 2, value: 'A' },
   { id: 3, value: 'A' }, { id: 4, value: 'A' },
-  { id: 5, value: 'A' }, { id: 6, value: 'A' },
-  { id: 7, value: 'A' }, { id: 8, value: 'A' },
-  { id: 9, value: 'A' },
+  { id: 5, value: 'B' }, { id: 6, value: 'B' },
+  { id: 7, value: 'C' }, { id: 8, value: 'E' },
+  { id: 9, value: 'F' },
 ];
 
 const Puzzle3 = () => {
