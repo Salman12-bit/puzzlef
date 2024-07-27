@@ -135,30 +135,30 @@ const Puzzle2 = () => {
       </div>
       <div className="container">
         <div className="row">
-        <div className="col-12 second my-2">
-            <h2 className="my-4">How to Play Puzzle Game?</h2>
-            <h6 className="puzzle-game-intro me-5">Puzzle games are a delightful way to challenge your mind, improve cognitive skills, improve your picking power, and enjoy some leisure time. Puzzles come in various forms, with unique content from traditional paper puzzles to sophisticated digital games. The puzzle guide will walk you through the basic principles of playing different types of puzzle games, offering tips and strategies to enhance your experience.</h6>
-            <h3 className="mt-4 up">1. Different Types of Puzzle Games:</h3>
-            <h6 className="puzzle-game-intro me-5" >Puzzle games come in many varieties, each with unique mechanics and objectives.</h6>
+          <div className="col-12 second my-2">
+            <h2 className="my-4">How to Play Jigsawplanet Game?</h2>
+            <h6 className="puzzle-game-intro me-5">Jigsawplanet games are a delightful way to challenge your mind, improve cognitive skills, improve your picking power, and enjoy some leisure time. Jigsawplanet come in various forms, with unique content from traditional paper jigsawplanet to sophisticated digital games. The jigsawplanet guide will walk you through the basic principles of playing different types of jigsawplanet games, offering tips and strategies to enhance your experience.</h6>
+            <h3 className="mt-4 up">1. Different Types of jigsawplanet Games:</h3>
+            <h6 className="puzzle-game-intro me-5" >Jigsawplanet games come in many varieties, each with unique mechanics and objectives.</h6>
             <h3 className="mt-4 up">2. Understand the Rules:</h3>
-            <h6 className="puzzle-game-intro me-5">Each puzzle game has specific rules and objectives. Read the instructions carefully before starting.</h6>
+            <h6 className="puzzle-game-intro me-5">Each jigsawplanet game has specific rules and objectives. Read the instructions carefully before starting.</h6>
             <ul className="mar me-5">
               <li>'In this game players have 3 chances'</li>
-              <li>'If 3 puzzle game cards are matched to each other' </li>
+              <li>'If 3 jigsawplanet game cards are matched to each other' </li>
               <li>'Player wins this game' </li>
-              <li>'Otherwise, Restart the puzzle game again and try to match again 3cards </li>
+              <li>'Otherwise, Restart the jigsawplanet game again and try to match again 3cards </li>
             </ul>
             <h3 className="mt-4 up">3. Set up Your Space:</h3>
-            <h6 className="puzzle-game-intro me-5">For physical puzzles, ensure you have a comfortable and well-lit workspace. For digital puzzles, adjust your device's brightness and volume settings to suit your environment and mind.</h6>
+            <h6 className="puzzle-game-intro me-5">For physical jigsawplanet, ensure you have a comfortable and well-lit workspace. For digital jigsawplanet, adjust your device's brightness and volume settings to suit your environment and mind.</h6>
             <ul className="mar me-2">
               <h2>Tips for Success</h2>
-              <li>Stay Calm: Puzzle games should be enjoyable; take breaks if you feel frustrated. </li>
+              <li>Stay Calm: Jigsawplanet games should be enjoyable; take breaks if you feel frustrated. </li>
               <li>Practice Regularly: The more you play, the better you get.</li>
               <li>Learn from Mistakes: Analyze what went wrong and try different approaches.</li>
               <li>Challenge Yourself: Gradually increase the difficulty level to keep improving your skills and thinking process.</li>
             </ul>
             <h3 className="mt-4 up"> Conclusion:</h3>
-            <h6 className="puzzle-game-intro me-5 mb-4">Puzzle games offer endless opportunities to test your mental acuity, relax, and have fun. By understanding the rules, using effective strategies, and practicing regularly, you can enhance your puzzle-solving skills and enjoy the satisfying feeling of cracking even the toughest puzzles. So, choose your game, set up your space, and dive into the fascinating world of puzzles!</h6>
+            <h6 className="puzzle-game-intro me-5 mb-4">Jigsawplanet games offer endless opportunities to test your mental acuity, relax, and have fun. By understanding the rules, using effective strategies, and practicing regularly, you can enhance your jigsawplanet-solving skills and enjoy the satisfying feeling of cracking even the toughest jigsawplanet. So, choose your game, set up your space, and dive into the fascinating world of jigsawplanet!</h6>
           </div>
           <div className='inner'>
             <Link to="/puzzle1">
@@ -199,11 +199,11 @@ const Puzzle2 = () => {
             </Link>
           </div>
           <div className="col-12 my-3">
-            <video  className='video' src="./videos/hacks.mp4" controls={true} width="100%" />
+            <video className='video' src="./videos/hacks.mp4" controls={true} width="100%" />
           </div>
         </div>
       </div>
-      
+
     </div>
   );
 };
