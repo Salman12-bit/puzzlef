@@ -48,6 +48,7 @@ const Forgetpass = () => {
 
             if (result.ok) {
                 toast.success("User Password Reset Successfully..!!");
+                navigate("/login");
             } else {
                 toast.error("User Email or lPassword Don't Match..!!");
             }
