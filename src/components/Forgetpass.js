@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import { useNavigate } from "react-router-dom";
 import { toast } from 'react-toastify';
 
 const Forgetpass = () => {
@@ -7,6 +8,8 @@ const Forgetpass = () => {
     const [newpassword, setNewPassword] = useState('');
     const [confirmpassword, setConfirmPassword] = useState('');
     const [showRole, setShowRole] = useState(false);
+
+    const navigate = useNavigate();
 
 
     const validateForm = () => {
