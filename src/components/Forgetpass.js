@@ -1,6 +1,7 @@
-import React, { useState } from "react";
-import { useNavigate } from "react-router-dom";
+import React, {useState } from "react";
+import { useEffect } from "react";
 import { toast } from 'react-toastify';
+
 
 const Forgetpass = () => {
 
@@ -9,7 +10,7 @@ const Forgetpass = () => {
     const [confirmpassword, setConfirmPassword] = useState('');
     const [showRole, setShowRole] = useState(false);
 
-    const navigate = useNavigate();
+  
 
 
     const validateForm = () => {
@@ -51,15 +52,20 @@ const Forgetpass = () => {
 
             if (result.ok) {
                 toast.success("User Password Reset Successfully..!!");
-                navigate("/login");
             } else {
-                toast.error("User Email or lPassword Don't Match..!!");
+                toast.error("User Email or Password Don't Match..!!");
             }
+           
         } catch (error) {
             console.error("Error during Changing Role:", error);
             alert("An error occurred. Please try again.");
         }
-    }
+        
+        
+    };
+    useEffect(() => {
+        forgetpass();
+    }, []);
 
     return (
         <div>
