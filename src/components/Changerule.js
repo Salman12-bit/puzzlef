@@ -4,8 +4,8 @@ import { toast } from 'react-toastify';
 const Changerule = () => {
 
     const [email, setEmail] = useState('');
-    const [newRole, setNewRole] = useState('');
-    const [confirmRole, setConfirmRole] = useState('');
+    const [newrole, setNewRole] = useState('');
+    const [confirmrole, setConfirmRole]     = useState('');
     const [showRole, setShowRole] = useState(false);
 
     const toggleShowRole = () => {
@@ -18,7 +18,7 @@ const Changerule = () => {
         try {
             let result = await fetch("https://www.api.jigsawplanet.online/changerule", {
                 method: "post",
-                body: JSON.stringify({ email, newRole, confirmRole }),
+                body: JSON.stringify({ email, newrole, confirmrole }),
                 headers: {
                     "Content-Type": "application/json"
                 }
