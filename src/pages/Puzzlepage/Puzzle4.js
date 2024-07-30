@@ -125,7 +125,7 @@ const Puzzle4 = () => {
               <div className="message">{message}</div>
               <button className="button" onClick={initializeGame}>Restart Game</button>
               {hasMatchedThree() && (
-                <Link to="/puzzle3">
+                <Link to="/puzzle5">
                   <button className="button ms-2">Next Level</button>
                 </Link>
               )}

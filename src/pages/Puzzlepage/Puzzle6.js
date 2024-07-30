@@ -91,16 +91,16 @@ const Puzzle6 = () => {
     }
   };
 
-  const hasMatchedThree = () => {
-    const valueCount = matchedCards.reduce((count, cardId) => {
-      const card = cards.find(card => card.id === cardId);
-      if (card) {
-        count[card.value] = (count[card.value] || 0) + 1;
-      }
-      return count;
-    }, {});
-    return Object.values(valueCount).some(count => count === 3);
-  };
+  // const hasMatchedThree = () => {
+  //   const valueCount = matchedCards.reduce((count, cardId) => {
+  //     const card = cards.find(card => card.id === cardId);
+  //     if (card) {
+  //       count[card.value] = (count[card.value] || 0) + 1;
+  //     }
+  //     return count;
+  //   }, {});
+  //   return Object.values(valueCount).some(count => count === 3);
+  // };
 
   return (
     <div>
@@ -124,11 +124,11 @@ const Puzzle6 = () => {
               </div>
               <div className="message">{message}</div>
               <button className="button" onClick={initializeGame}>Restart Game</button>
-              {hasMatchedThree() && (
+              {/* {hasMatchedThree() && (
                 <Link to="/puzzle3">
                   <button className="button ms-2">Next Level</button>
                 </Link>
-              )}
+              )} */}
             </div>
           </div>
         </div>
