@@ -25,6 +25,9 @@ import Puzzle2 from './pages/Puzzlepage/Puzzle2';
 import Puzzle3 from './pages/Puzzlepage/Puzzle3';
 import Chnagerule from './components/Changerule';
 import Dashboard from './pages/dashboard/Dashboard';
+import Puzzle4 from './pages/Puzzlepage/Puzzle4';
+import Puzzle5 from './pages/Puzzlepage/Puzzle5';
+import Puzzle6 from './pages/Puzzlepage/Puzzle6';
 
 
 
@@ -54,6 +57,9 @@ function App() {
             <Route path='puzzle1' element={<Puzzle1 />} />
             <Route path='puzzle2' element={<Puzzle2 />} />
             <Route path='puzzle3' element={<Puzzle3 />} />
+            <Route path='puzzle4' element={<Puzzle4 />} />
+            <Route path='puzzle5' element={<Puzzle5/>} />
+            <Route path='puzzle6' element={<Puzzle6/>} />
           </Route>
           <Route path='forget' element={<Forgetpass />} />
           <Route path='login' element={<Login />} />
