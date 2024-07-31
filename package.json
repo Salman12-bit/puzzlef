@@ -15,6 +15,7 @@
     "react-icons": "^5.2.1",
     "react-router-dom": "^6.21.2",
     "react-scripts": "5.0.1",
+    "react-snap": "^1.23.0",
     "react-toastify": "^10.0.4",
     "styled-components": "^6.1.11",
     "web-vitals": "^2.1.4"
@@ -23,7 +24,11 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "postbuild": "react-snap"
+  },
+  "reactSnap": {
+    "inlineCss": true
   },
   "eslintConfig": {
     "extends": [
