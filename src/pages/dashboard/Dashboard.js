@@ -51,7 +51,7 @@ const Dashboard = () => {
                 <div className='row'>
                     <div className='welcome'>
                         <div className='postion'>
-                            <img className='img3 mt-5' src='./images/Dashboard.jpg' alt='imgess' />
+                            <img className='img3 mt-5' src='./images/Dashboard.jpg' alt='jigsawplanet' />
                             <div className='tex'>
                                 <p>Welcome on Salman Developer Dashboard </p>
                                 <p>This is my First website Which I make my Own hand. With lot of dificulties and lot of ignorance.</p>

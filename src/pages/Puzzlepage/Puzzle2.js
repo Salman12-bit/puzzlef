@@ -162,40 +162,40 @@ const Puzzle2 = () => {
           </div>
           <div className='inner'>
             <Link to="/puzzle1">
-              <img className='innerimg' src='./images/Puzzle1.jpeg' alt='puzzle Logo' />
+              <img className='innerimg' src='./images/Puzzle1.jpeg' alt='jigsawplanet' />
             </Link>
             <Link to="/puzzle2">
-              <img className='innerimg' src='./images/Puzzle2.jpeg' alt='puzzle Logo' />
+              <img className='innerimg' src='./images/Puzzle2.jpeg' alt='jigsawplanet' />
             </Link>
             <Link to="/puzzle3">
-              <img className='innerimg' src='./images/Puzzle3.jpeg' alt='puzzle Logo' />
+              <img className='innerimg' src='./images/Puzzle3.jpeg' alt='jigsawplanet' />
             </Link>
             <Link to="/puzzle1">
-              <img className='innerimg' src='./images/Puzzle5.jpeg' alt='puzzle Logo' />
+              <img className='innerimg' src='./images/Puzzle5.jpeg' alt='jigsawplanet' />
             </Link>
             <Link to="/freezenova">
-              <img className='innerimg' src='./images/Freezenova1.jpeg' alt='puzzle Logo' />
+              <img className='innerimg' src='./images/Freezenova1.jpeg' alt='jigsawplanet' />
             </Link>
             <Link to="/game1">
-              <img className='innerimg' src='./images/Freezenova2.jpeg' alt='puzzle Logo' />
+              <img className='innerimg' src='./images/Freezenova2.jpeg' alt='jigsawplanet' />
             </Link>
             <Link to="/game2">
-              <img className='innerimg' src='./images/Freezenova3.jpeg' alt='puzzle Logo' />
+              <img className='innerimg' src='./images/Freezenova3.jpeg' alt='jigsawplanet' />
             </Link>
             <Link to="/game3">
-              <img className='innerimg' src='./images/Freezenova4.jpeg' alt='puzzle Logo' />
+              <img className='innerimg' src='./images/Freezenova4.jpeg' alt='jigsawplanet' />
             </Link>
             <Link to="/game4">
-              <img className='innerimg' src='./images/Freezenova5.jpeg' alt='puzzle Logo' />
+              <img className='innerimg' src='./images/Freezenova5.jpeg' alt='jigsawplanet' />
             </Link>
             <Link to="/game5">
-              <img className='innerimg' src='./images/Freezenova6.jpeg' alt='puzzle Logo' />
+              <img className='innerimg' src='./images/Freezenova6.jpeg' alt='jigsawplanet' />
             </Link>
             <Link to="/game6">
-              <img className='innerimg' src='./images/Freezenova7.jpeg' alt='puzzle Logo' />
+              <img className='innerimg' src='./images/Freezenova7.jpeg' alt='jigsawplanet' />
             </Link>
             <Link to="/game7">
-              <img className='innerimg' src='./images/Freezenova8.jpeg' alt='puzzle Logo' />
+              <img className='innerimg' src='./images/Freezenova8.jpeg' alt='jigsawplanet' />
             </Link>
           </div>
           <div className="col-12 my-3">
