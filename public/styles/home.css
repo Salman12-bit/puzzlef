@@ -80,7 +80,7 @@ body {
   margin-bottom: 20px;
 }
 .color-selection{
-  background-color: rgb(205, 158, 226);
+  background: linear-gradient(45deg, #b66e6e, #415b83, #528e54, #3498db);
   box-shadow: 7px 6px 8px rgb(0, 0, 0) !important;
   border-radius: 20px;
 }
